@@ -1,0 +1,14 @@
+<div class="card m-1 p-3"
+[ngClass]="{'answer': type === 'answer', 'question' : type === 'question', 'result' : type === 'result' }"
+(click)="type === 'answer'? clickAnswer(id) : false"
+>
+    <!-- question card content-->
+    <h2 class="fs-4" *ngIf="title">{{title}}</h2>
+    <h3 class="fs-5 text-decoration-underline" *ngIf="title">{{subtitle}}</h3>
+    <div *ngIf="imgSrc" class="card__img w-100 d-flex justify-content-center my-2">
+        <div  style="background-image: url({{imgSrc}});"></div>
+    </div>
+    <!-- answer/ question card content-->
+    <p class="text-center">{{content}}</p>
+</div>
+

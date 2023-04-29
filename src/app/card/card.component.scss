@@ -1,0 +1,34 @@
+.card__img {
+    height: 250px;
+
+    div {
+        width: 500px;
+        height: 250px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 70%;
+    }
+}
+
+.question {
+    background-color: #284ca7;
+}
+
+.answer {
+    background-color: #2874c6;
+    cursor: pointer;
+
+    &:hover {
+        background-color: #13467c;
+    }
+
+    &:active {
+        background-color: #1a4f88;
+        box-shadow: black 0 0 2px;
+    }
+}
+
+.result{
+    background-color: white;
+    color:black
+}
