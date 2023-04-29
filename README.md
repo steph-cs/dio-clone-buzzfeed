@@ -2,7 +2,7 @@
 # ❓Quizz: Que tipo de programador você é?
 
 Acesso em: 
-https://steph-cs.github.io/dio-clone-buzzfeed/dio-clone-buzzfeed/
+https://steph-cs.github.io/dio-clone-buzzfeed/
 
 <p>
 
