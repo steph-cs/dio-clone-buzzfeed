@@ -48,6 +48,7 @@ export class QuizzComponent implements OnInit {
 
     retryQuizz(): void {
         this.question_index = 0
+        this.question_selected = this.quizz_questions[this.question_index]
         this.quizz_answers = []
         this.final_result = null
         this.finished = false
@@ -66,12 +67,19 @@ export class QuizzComponent implements OnInit {
 
     getResult() {
         if (
-            this.quizz_answers.filter(answer => answer.alias == 'A').length >
-            this.quizz_answers.filter(answer => answer.alias == 'B').length
+            (this.quizz_answers.filter(answer => answer.alias == 'A').length >
+            this.quizz_answers.filter(answer => answer.alias == 'B').length) &&
+            (this.quizz_answers.filter(answer => answer.alias == 'A').length >
+            this.quizz_answers.filter(answer => answer.alias == 'C').length)
         ) {
             this.final_result = this.quizz_results.find((res) => res.alias == 'A')
-        } else {
+        } else if (
+            (this.quizz_answers.filter(answer => answer.alias == 'B').length >
+            this.quizz_answers.filter(answer => answer.alias == 'C').length) 
+        ){
             this.final_result = this.quizz_results.find((res) => res.alias == 'B')
+        }else{
+            this.final_result = this.quizz_results.find((res) => res.alias == 'C')
         }
         this.finished = true
     }

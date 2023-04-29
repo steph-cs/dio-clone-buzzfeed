@@ -1,113 +1,154 @@
 {
-    "title": "Você seria um heroi ou vilão ?",
+    "title": "Que tipo de programador você é?",
     "questions": [
         {
             "id": 1,
-            "question": "Qual super poder você escolheria ?",
+            "question": "Quando você está preso em um problema de programação, o que você faz?",
             "options": [
                 {
                     "id": 1,
-                    "name": "Raios-Lasers",
-                    "alias": "A"
+                    "name": "Tento resolver o problema até que fique exausto.",
+                    "alias": "C"
                 },
                 {
                     "id": 2,
-                    "name": "Voar",
+                    "name": "Peço ajuda a colegas ou a comunidade online.",
                     "alias": "B"
                 },
                 {
                     "id": 3,
-                    "name": "Explodir coisas",
+                    "name": "Tiro um tempo para relaxar e voltar com uma mente fresca.",
                     "alias": "A"
                 },
                 {
                     "id": 4,
-                    "name": "Curar feridas",
-                    "alias": "B"
-                },
-                {
-                    "id": 5,
-                    "name": "Soltar fogo pelas mãos",
+                    "name": "Tento ignorar o problema e continuar com outras tarefas.",
                     "alias": "A"
                 }
             ]
         },
         {
             "id": 2,
-            "question": "Quem você salvaria primeiro ?",
+            "question": "Como você lida com um feedback negativo em relação ao seu código?",
             "options": [
                 {
                     "id": 1,
-                    "name": "Crianças",
+                    "name": "Fico defensivo e tento justificar as minhas escolhas.",
                     "alias": "A"
                 },
                 {
                     "id": 2,
-                    "name": "Idosos",
-                    "alias": "A"
+                    "name": "Aceito o feedback e trabalho em melhorias.",
+                    "alias": "B"
                 },
                 {
                     "id": 3,
-                    "name": "Não saberia escolher",
-                    "alias": "B"
+                    "name": "Ignoro o feedback e continuo trabalhando do meu jeito.",
+                    "alias": "C"
+                },
+                {
+                    "id": 4,
+                    "name": "Fico desmotivado e perco o interesse no projeto.",
+                    "alias": "C"
                 }
             ]
         },
         {
             "id": 3,
-            "question": "Qual a sua maior preocupação ao enfretar outro super ser ?",
+            "question": "Como você se mantém motivado ao trabalhar em um projeto de longo prazo?",
             "options": [
                 {
                     "id": 1,
-                    "name": "Não destruir prédios",
-                    "alias": "B"
+                    "name": "Foco em pequenas conquistas ao longo do caminho.",
+                    "alias": "A"
                 },
                 {
                     "id": 2,
-                    "name": "Socar a cara do inimigo",
-                    "alias": "A"
+                    "name": "Acompanho de perto o progresso dos meus colegas.",
+                    "alias": "B"
                 },
                 {
                     "id": 3,
-                    "name": "Não sujar meu traje",
-                    "alias": "A"
+                    "name": "Defino prazos rígidos e me forço a cumpri-los.",
+                    "alias": "C"
                 },
                 {
                     "id": 4,
-                    "name": "Não deixar ninguém se ferir",
-                    "alias": "B"
+                    "name": "Faço uma pausa regularmente para evitar a exaustão mental.",
+                    "alias": "A"
                 }
             ]
         },
         {
             "id": 4,
-            "question": "Qual o seu maior foco ?",
+            "question": "Como você lida com um prazo apertado?",
             "options": [
                 {
                     "id": 1,
-                    "name": "Ficar rico com poderes",
+                    "name": "Fico calmo e concentrado e trabalho com eficiência.",
                     "alias": "A"
                 },
                 {
                     "id": 2,
-                    "name": "Salvar a cidade",
+                    "name": " Peço ajuda a colegas para dividir o trabalho.",
                     "alias": "B"
+                },
+                {
+                    "id": 3,
+                    "name": "Tento ignorar o prazo e continuar trabalhando no meu ritmo.",
+                    "alias": "C"
+                },
+                {
+                    "id": 4,
+                    "name": "Fico estressado e começo a perder o sono.",
+                    "alias": "C"
                 }
             ]
         },
         {
             "id": 5,
-            "question": "Qual o seu apelido de super ser ?",
+            "question": "Como você lida com uma tarefa entediante ou repetitiva?",
             "options": [
                 {
                     "id": 1,
-                    "name": "O Terrivel",
+                    "name": "Encontro maneiras de torná-la mais interessante ou desafiadora.",
                     "alias": "A"
                 },
                 {
                     "id": 2,
-                    "name": "Amigo da vizinhança",
+                    "name": "Peço para ser designado para outra tarefa.",
                     "alias": "B"
+                },
+                {
+                    "id": 3,
+                    "name": "Continuo trabalhando até que esteja completo, independentemente do quão chato seja.",
+                    "alias": "C"
+                },
+                {
+                    "id": 4,
+                    "name": "Procuro maneiras de automatizar ou simplificar a tarefa.",
+                    "alias": "A"
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "question": "Como você lida com um colega de equipe que não está fazendo a sua parte no projeto?",
+            "options": [
+                {
+                    "id": 1,
+                    "name": "Tento ajudá-lo a encontrar uma maneira de contribuir mais.",
+                    "alias": "A"
+                },
+                {
+                    "id": 2,
+                    "name": "Falo com meu superior para que eles lidem com a situação.",
+                    "alias": "B"
+                },
+                {
+                    "id": 3,
+                    "name": "Ignoro o problema e continuo trabalhando como se nada estivesse acontecendo.",
+                    "alias": "C"
                 }
             ]
         }
@@ -116,21 +157,31 @@
         {
             "id": 1,
             "alias": "A",
-            "title": "Vilão",
-            "content": "Você muito provavelmente seria um super vilão!",
+            "title": "O pensador",
+            "content": "Você lida com o bloqueio dando uma pausa e voltando com uma mente fresca.",
             "img": {
-                "url": "https://media.giphy.com/media/xT9DPpf0zTqRASyzTi/giphy.gif",
-                "alt": "vilao"
+                "url": "https://media.giphy.com/media/ePgtEFMaPueSQ/giphy.gif",
+                "alt": "O pensador"
             }
         },
         {
             "id": 2,
             "alias": "B",
-            "title": "Herói",
-            "content": "Você muito provavelmente seria um heroi!",
+            "title": "O colaborador",
+            "content": "Você lida com o bloqueio pedindo ajuda a colegas ou encontrando soluções online.",
             "img": {
-                "url": "https://media3.giphy.com/media/qxkQ5PLLCnXW0/giphy.webp?cid=ecf05e4750151ggjs3jjez9rl1oxkgze04qq9emdaaud8vwo&ep=v1_gifs_search&rid=giphy.webp&ct=g",
-                "alt": "heroi"
+                "url": "https://media.giphy.com/media/3orif4jJNnPkpjfo2c/giphy.gif",
+                "alt": "O colaborador"
+            }
+        },
+        {
+            "id": 3,
+            "alias": "C",
+            "title": "O teimoso",
+            "content": "Você lida com o bloqueio continuando a tentar diferentes abordagens até encontrar uma solução.",
+            "img": {
+                "url": "https://media.giphy.com/media/l0NwOkgTYRi30mT4Y/giphy.gif",
+                "alt": "O colaborador"
             }
         }
     ]
